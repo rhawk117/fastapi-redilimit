@@ -1,0 +1,11 @@
+[project]
+name = "fastapi-redilimit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "redis[hiredis]>=6.2.0",
+    "user-agents>=2.2.0",
+]
